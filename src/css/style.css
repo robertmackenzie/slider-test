@@ -1,0 +1,29 @@
+/*reset*/
+body, div, ul, li {
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+}
+
+.slider {
+  margin: 50px auto 50px auto;
+  width: 850px;
+  height: 500px;
+  overflow: hidden;
+}
+
+.slider ul {
+  /* will be set by JS dynamically */
+  width: 10000px;
+  color: white;
+  font-size: 5em;
+}
+
+.slider li {
+  width: 850px;
+  height: 250px;
+  background-color: blue;
+  list-style-type: none;
+  float: left;
+  text-align: center;
+}
